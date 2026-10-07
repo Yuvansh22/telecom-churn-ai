@@ -1,0 +1,41 @@
+{
+  "customer_id": "C104731",
+  "churn_probability": 0.9963256159911841,
+  "risk_factors": [
+    {
+      "feature": "satisfaction_score",
+      "label": "Low satisfaction score",
+      "value": "1.0",
+      "shap": 1.5507733135621047
+    },
+    {
+      "feature": "network_drops",
+      "label": "Frequent network drops",
+      "value": "26",
+      "shap": 1.0795559110828612
+    },
+    {
+      "feature": "nps_score",
+      "label": "Low NPS",
+      "value": "-97.0",
+      "shap": 0.6442868281595794
+    },
+    {
+      "feature": "complaints",
+      "label": "High complaints",
+      "value": "6",
+      "shap": 0.5136725352175886
+    },
+    {
+      "feature": "contract_type",
+      "label": "Contract type",
+      "value": "Month-to-month",
+      "shap": 0.4347878952520313
+    }
+  ],
+  "protective_factors": {
+    "support_calls": -0.1562804887800938,
+    "device_type": -0.1396301775227661,
+    "is_new_customer": -0.0745066234054929
+  }
+}

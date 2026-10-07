@@ -1,0 +1,16 @@
+{
+  "Random Forest": {
+    "n_estimators": 100,
+    "min_samples_leaf": 40,
+    "max_features": "sqrt",
+    "max_depth": 14
+  },
+  "XGBoost": {
+    "subsample": 0.85,
+    "n_estimators": 500,
+    "min_child_weight": 5,
+    "max_depth": 4,
+    "learning_rate": 0.02,
+    "colsample_bytree": 0.6
+  }
+}

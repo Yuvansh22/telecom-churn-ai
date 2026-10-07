@@ -1,0 +1,40 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.streamlit/secrets.toml
+outputs/metrics/*_log.txt
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Trained models
+models/*.pkl
+
+# Generated predictions
+outputs/predictions/*.csv
+
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Trained models
+models/*.pkl
+
+# Generated predictions
+outputs/predictions/*.csv
+
